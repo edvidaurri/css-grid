@@ -18,7 +18,10 @@
     <div class="item">6</div>
     <div class="item">7</div>
     <div class="item">8</div>
-    <div class="item">9</div>
+    <div class="item">
+      <h6>First, figure out if we have enough slices now. Use a comparison operator to figure out if there are enough. Assign the result to the enoughSlicesNow variable. Next, figure out how many slices we'll need, if any. Assign the result to the slicesNeeded variable.</h6>
+      <p>Edward Vidaurri</p>
+    </div>
     <div class="item">10</div>
     <div class="item">11</div>
     <div class="item">12</div>
@@ -31,6 +34,13 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      height: 500px;
+      border: 10px solid var(--yellow);
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr  1fr 3fr 1fr;
+    }
+    h6 {
+      font-size: 12px;
     }
   </style>
 </body>
